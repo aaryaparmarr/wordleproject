@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="87.0" layoutY="14.0" prefHeight="62.0" prefWidth="226.0" text="Congratulations!">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="66.0" prefHeight="17.0" prefWidth="87.0" text="Statistics">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="153.0" text="Played" />
+      <Label layoutX="117.0" layoutY="153.0" text="Win%" />
+      <Label layoutX="193.0" layoutY="153.0" text="Current Streak" />
+      <Label layoutX="312.0" layoutY="153.0" text="Max Streak" />
+      <TextField fx:id="Played_tf" layoutX="20.0" layoutY="89.0" prefHeight="62.0" prefWidth="59.0" />
+      <TextField fx:id="Win_tf" layoutX="103.0" layoutY="89.0" prefHeight="62.0" prefWidth="59.0" />
+      <TextField fx:id="Current_tf" layoutX="201.0" layoutY="89.0" prefHeight="62.0" prefWidth="59.0" />
+      <TextField fx:id="Max_tf" layoutX="311.0" layoutY="89.0" prefHeight="62.0" prefWidth="59.0" />
+      <ProgressBar fx:id="one_br" layoutX="79.0" layoutY="226.0" prefHeight="18.0" prefWidth="279.0" progress="0.0" />
+      <Label layoutX="33.0" layoutY="189.0" prefHeight="17.0" prefWidth="87.0" text="Statistics">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="three_br" layoutX="79.0" layoutY="285.0" prefHeight="18.0" prefWidth="279.0" progress="0.0" />
+      <ProgressBar fx:id="four_br" layoutX="79.0" layoutY="315.0" prefHeight="18.0" prefWidth="279.0" progress="0.0" />
+      <ProgressBar fx:id="five_br" layoutX="79.0" layoutY="344.0" prefHeight="18.0" prefWidth="279.0" progress="0.0" />
+      <ProgressBar fx:id="two_br" layoutX="79.0" layoutY="255.0" prefHeight="18.0" prefWidth="279.0" progress="0.0" />
+      <ProgressBar fx:id="six_br" layoutX="79.0" layoutY="374.0" prefHeight="18.0" prefWidth="279.0" progress="0.0" />
+      <Label layoutX="55.0" layoutY="226.0" text="1" />
+      <Label layoutX="56.0" layoutY="255.0" text="2" />
+      <Label layoutX="56.0" layoutY="286.0" text="3" />
+      <Label layoutX="56.0" layoutY="316.0" text="4" />
+      <Label layoutX="57.0" layoutY="344.0" text="5" />
+      <Label layoutX="58.0" layoutY="374.0" text="6" />
+   </children>
+</AnchorPane>
